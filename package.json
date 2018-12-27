@@ -1,6 +1,6 @@
 {
     "name": "dom-xpath",
-    "version": "1.0.1",
+    "version": "1.0.2",
     "description": "获取页面上的DOM元素的唯一路径",
     "main": "dist/index.js",
     "private": false,
@@ -8,7 +8,7 @@
         "test": "echo \"Error: no test specified\" && exit 1",
         "start": "webpack --config webpack.config.js",
         "dev": "npx webpack-dev-server --mode development --content-base ./dist",
-        "tsc": "tsc --outDir dist src/index.ts -m umd"
+        "tsc": "tsc --outDir dist src/index.ts -m es6"
     },
     "repository": {
         "type": "git",
