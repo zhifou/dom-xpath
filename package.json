@@ -1,0 +1,28 @@
+{
+    "name": "dom-xpath",
+    "version": "1.0.1",
+    "description": "获取页面上的DOM元素的唯一路径",
+    "main": "dist/index.js",
+    "private": false,
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "start": "webpack --config webpack.config.js",
+        "dev": "npx webpack-dev-server --mode development --content-base ./dist",
+        "tsc": "tsc --outDir dist src/index.ts -m umd"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/packjs/xpath.git"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "MIT",
+    "devDependencies": {
+        "source-map-loader": "^0.2.4",
+        "ts-loader": "^5.3.1",
+        "typescript": "^3.2.2",
+        "webpack": "^4.27.1",
+        "webpack-cli": "^3.1.2",
+        "webpack-dev-server": "^3.1.10"
+    }
+}
