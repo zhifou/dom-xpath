@@ -1,6 +1,6 @@
 {
     "name": "dom-xpath",
-    "version": "1.0.2",
+    "version": "1.0.3",
     "description": "获取页面上的DOM元素的唯一路径",
     "main": "dist/index.js",
     "private": false,
@@ -12,7 +12,7 @@
     },
     "repository": {
         "type": "git",
-        "url": "https://github.com/packjs/xpath.git"
+        "url": "https://github.com/packjs/dom-xpath.git"
     },
     "keywords": [],
     "author": "",
