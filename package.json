@@ -8,7 +8,7 @@
         "test": "echo \"Error: no test specified\" && exit 1",
         "start": "webpack --config webpack.config.js",
         "dev": "npx webpack-dev-server --mode development --content-base ./dist",
-        "tsc": "tsc --outDir dist src/index.ts -m es6"
+        "build": "tsc --outDir dist src/index.ts -m es6"
     },
     "repository": {
         "type": "git",
